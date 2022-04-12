@@ -1,0 +1,33 @@
+[{
+    "image": "http://data.iymc.info/ambassadors/cropped_1599062068.2237_picture.png",
+    "name": "Study Hard",
+    "num": 1,
+    "by": "Rejin Nepal",
+    "on": "04/01/2022", 
+    "advice": "Study hard to get along with your life."
+},
+{
+    "image": "https://github.com/christnm/fiskbookapp/blob/rasneet/public/christian.jpg?raw=true",
+    "name": "Apply Online and Fast",
+    "num": 2,
+    "by": "Christian Morales", 
+    "on": "04/10/2022", 
+    "advice": "Track every deadline of your internship, and be sure to APPLY."
+},
+{
+    "image": "https://github.com/christnm/fiskbookapp/blob/rasneet/public/awantika.jpg?raw=true",
+    "name": "Welcome Your Scholarship",
+    "num": 3,
+    "by": "Awantika Bastola", 
+    "on": "03/22/2022",
+    "advice": "Watch out every way to earn a scholarship."
+},
+{
+    "image": "https://github.com/christnm/fiskbookapp/blob/rasneet/public/myself.jpg?raw=true",
+    "name": "Find Time to Chill",
+    "num": 4,
+    "by": "Rasneet Singh", 
+    "on": "04/12/2022",
+    "advice": "No matter how hard your day has been, give some time to yourself."
+}
+]

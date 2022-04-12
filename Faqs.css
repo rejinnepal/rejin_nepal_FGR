@@ -1,0 +1,368 @@
+body {
+    background-color: #F4BA1B;
+    min-height:1000px;
+}
+
+.img-container{
+    height:150px;
+    display:flex;
+}
+
+.img-container img{
+    border-radius:10px;
+}
+
+.img-container h1{
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align:center;
+    margin-left:400px;
+    font-family: bold;
+}
+
+.img-container p{
+    color:beige;
+    font-family: Snell Roundhand, cursive;
+    text-align:center;
+    font-size: 28px;
+    margin-top:60px;
+    margin-left:-100px;
+
+}
+
+
+  
+.gradient {
+    background-color: #F4BA1B;
+    background-image: linear-gradient(315deg, blue 50%, #F4BA1B 74%);
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+}
+  
+.logo-txt {
+    padding-left: 10px;
+}
+  
+nav {
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index: 99px;
+    background-color: #24364C;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    padding: 16px 32px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+  
+.nav-list {
+    justify-content: flex-end;
+    margin: 0 -16px;
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-list a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+.nav-list a.activee, .nav-list a:hover {
+    background-color: #F4BA1B;
+    color:white;
+    border-radius: 99px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.gradient.shimmer:hover {
+    color: grey;
+    -webkit-mask: linear-gradient(-60deg, #000 30%, #0005, #000 70%) right/300%;
+    background-repeat: no-repeat;
+    animation: shimmer 2.5s infinite;
+}
+
+
+
+
+.display-text {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    display: relative;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+.display-text.shimmer:hover{
+    color: grey;
+    -webkit-mask: linear-gradient(-60deg, #24364C 30%, #F4BA1B, #24364C 70%) right/300%
+    100%;
+    background-repeat: no-repeat;
+    animation: shimmer 2.5s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+    -webkit-mask-position: left;
+    }
+}
+
+
+.Container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F4BA1B;
+    height: 80%;
+    width: 75%;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.UpperContainer{
+    /* background-color:rgb(46, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    height: 300px; 
+}
+
+.ask{
+    color: #24364C;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .ask button{
+    height: 70px;
+    width: 210px;
+    margin-left: 100px;
+    margin-top:50;
+} */
+
+.ask .contact:hover{
+    font-family: sans-serif;
+
+    /* color: #24364C; */
+}
+
+#button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #24364C;
+    height: 70px;
+    width: 250px;
+    border-radius: 22px;
+    margin-left: 70px;
+
+}
+
+/* #button :hover{ */
+    /* background-color: #24364C; */
+/* } */
+
+/* input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  } */
+
+/* form.SearchBox{
+    display: flex; 
+}
+
+form.SearchBox input[type=text]{
+    margin-top:20px;
+    margin-left: 150px;
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+form.SearchBox button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    /* cursor: pointer; 
+}  */ */
+
+.LowerContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.collapsible {
+    width: 100%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #24364C;
+    color: white;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .content p{
+      text-align:center;
+  }
+
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: left;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  /* @media screen and (max-width:600px){
+      body{
+          margin-top: 0;
+          width: 100%;
+          height:100%;
+      }
+      .ask{
+          margin-top: -20px;
+          margin-left: -30px;
+      }
+      #help, #button{
+          margin-left: 35px;
+      }
+      .Container{
+          width:100%;
+          height:100%;
+      }
+  } */
+
+.end-part{
+    background-color:black;
+    margin-bottom:-15px;
+    height:150px;
+    margin-left:-8px;
+    margin-right:-8px;
+}
+
+.connection{
+    text-align: center;
+    font-size:20px;
+    font-weight: bolder;
+    color: red;
+    animation-name: connection;
+    animation-duration: 30s;
+    margin-top:250px;
+}
+.connection:hover{
+    text-decoration:underline;
+}
+  
+@keyframes connection {
+    0%   {color: red;}
+    15%  {color: yellow;}
+    30%  {color: #2A56DF;}
+    45% {color: green;}
+    60% {color:#866D4B;}
+    75% {color: orange;}
+    90% {color: purple;}
+    100% {color: indigo;}
+}
+
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.fa:hover {
+    opacity: 1;
+}
+  
+.fa-facebook {
+    background: #F4BA1B;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #F4BA1B;
+    color: white;
+}
+
+.fa-youtube {
+    background: #24364C;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: #A31F34;
+    color: #8a3ab9;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+.fa-instagram:hover {
+    background: #A31F34;
+    color: #8a3ab9;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.fa-youtube:hover {
+    background: #A31F34;
+    color: #8a3ab9;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cr{
+    text-align:center;
+    color:#F4BA1B;
+}
